@@ -5,7 +5,7 @@ def compare_list(list1, list2):
    of the two lists are not equal, return the index of
    the first difference. If the contents of the two lists
    are equal, return -1
-"""
+    """
     min_length = min(len(list1), len(list2))
     print(min_length, "here")
 
